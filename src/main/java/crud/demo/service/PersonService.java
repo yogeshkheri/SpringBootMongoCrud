@@ -64,6 +64,12 @@ public class PersonService implements PersonServiceInterface {
 	       personRepo.findOneByLastName(lastName);
 		return 0;
 	}
+
+	@Override
+	public int getAgeOfPerson() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 
 }

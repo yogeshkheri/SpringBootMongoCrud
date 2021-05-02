@@ -21,4 +21,6 @@ public interface PersonServiceInterface {
 
 	int getAgeOfPerson();
 
+	int getAgeOfPerson(String lastName);
+
 }
